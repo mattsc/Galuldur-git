@@ -1,0 +1,50 @@
+1.1.1, 27 Apr 2012
+- Added description written by Shakeshake
+
+1.1.0, 22 Dec 2010
+Gameplay:
+  - S10: The lizards, including their leader, now actively protect the Chief's side, and in particular the Chief himself
+  - S10: Fixed a minor bug that sometimes kept the Elralith control menu items from being displayed
+  - All narrator messages (except for "engineering messages" which are commented out) now display the Wesnoth icon.
+  - S2/S4/S5: Dialog for Trolls at passes and Woses was changed so that they now show the unit portraits
+
+BfW 1.9:
+The main change of this release is the porting for it to work with BfW 1.9 also.  The emphasis was on keeping the differences between the 1.8 and 1.9 versions as minimal as possible, rather than on finding the most elegant solution.  This resulted in two types of changes:
+
+1. Changes that affect 1.9 only, that is, real syntax differences between 1.8 and 1.9 (tested with 1.9.3):
+  - Replaced flower terrain in all maps: GGf -> Gg^Efm
+  - Changed 'colour' -> 'color' in S6, S7
+  - Changed 'removeitem' -> 'remove_item' in S10 macros
+  - Changed bonus objective formatting based on new objectives formatting style
+
+2. Changes made to both the 1.8 and 1.9 versions:
+  - Replaced core macros REDRAW, FLOATING_TEXT, CAPTURE_FILTERED_VILLAGES (deprecated in 1.9) by local macros
+  - S4: introduced rounding for 'burn_limit' variable
+  - Sound file 'wolf-die.wav' now in local sounds/ directory
+  - Macro MOVE_UNIT works differently now, requires destination to be passable -> need to make lava passable for unit on suicide run in S10
+  - S6/S7: Changed the way how objectives are kept silent on change of players side.  This thread (http://forums.wesnoth.org/viewtopic.php?f=21&t=32415) explains how to do that.
+  - Minor format changes suggested by wmlindent, wmllint and wmlscope
+
+---------- Previous releases were for BfW 1.8 only ----------
+
+1.0.3, 19 Dec 2010:
+- S4: Small change to opening dialog to make it clearer that several experienced units should be sent with Norfindil and Vaddan
+- S10: Added (very simple) death speech by the Chief
+- S10: Staff bearer will not use it on defense until Norfindil has been converted back
+
+----------
+
+1.0.2, 8 Dec 2010:
+- S2: Fixed a bug that did not save Vaddan in a variable if he was killed in S2
+
+----------
+
+1.0.1, 24 Oct 2010:
+- S2: player also gets gold and map when killing Vaddan, not only when letting him join (to get rid of a tomato surprise); also fixed a typo that only gave the player 20 gold when it was supposed to be 26 on letting him join
+
+----------
+
+1.0.0, 13 Oct 2010:
+- First post to forum
+- Next day (Oct 14): added to add-on server
+
