@@ -9,7 +9,7 @@ Gameplay:
   - S2/S4/S5: Dialog for Trolls at passes and Woses was changed so that they now show the unit portraits
 
 BfW 1.9:
-The main change of this release is the porting for it to work with BfW 1.9 also.  The emphasis was on keeping the differences between the 1.8 and 1.9 versions as minimal as possible, rather than on finding the most elegant solution.  This resulted in two types of changes:
+The main change of this release is the porting for it to work with BfW 1.9 also. The emphasis was on keeping the differences between the 1.8 and 1.9 versions as minimal as possible, rather than on finding the most elegant solution. This resulted in two types of changes:
 
 1. Changes that affect 1.9 only, that is, real syntax differences between 1.8 and 1.9 (tested with 1.9.3):
   - Replaced flower terrain in all maps: GGf -> Gg^Efm
@@ -22,7 +22,7 @@ The main change of this release is the porting for it to work with BfW 1.9 also.
   - S4: introduced rounding for 'burn_limit' variable
   - Sound file 'wolf-die.wav' now in local sounds/ directory
   - Macro MOVE_UNIT works differently now, requires destination to be passable -> need to make lava passable for unit on suicide run in S10
-  - S6/S7: Changed the way how objectives are kept silent on change of players side.  This thread (http://forums.wesnoth.org/viewtopic.php?f=21&t=32415) explains how to do that.
+  - S6/S7: Changed the way how objectives are kept silent on change of players side. This thread (http://forums.wesnoth.org/viewtopic.php?f=21&t=32415) explains how to do that.
   - Minor format changes suggested by wmlindent, wmllint and wmlscope
 
 ---------- Previous releases were for BfW 1.8 only ----------
