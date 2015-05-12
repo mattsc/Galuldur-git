@@ -49,7 +49,7 @@ resulted in two types of changes:
 2. Changes made to both the 1.8 and 1.9 versions:
   - Replaced core macros REDRAW, FLOATING_TEXT, CAPTURE_FILTERED_VILLAGES
     (deprecated in 1.9) by local macros
-  - S4: introduced rounding for 'burn_limit' variable
+  - S4: introduced rounding for 'burnt_limit' variable
   - Sound file 'wolf-die.wav' now in local sounds/ directory
   - Macro MOVE_UNIT works differently now, requires destination to be passable
     -> need to make lava passable for unit on suicide run in S10
