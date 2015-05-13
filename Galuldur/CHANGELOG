@@ -11,6 +11,8 @@
   - Renamed Altwald -> Ultwildir
   - Time of day now carries over directly from scenario to scenario
   - S1: Added a message that the wolves are in west
+  - S5: make troll ambushes weaker, to make them less of a tomato surprise
+  - S6: completely rework the scenario, to avoid it being a null scenario
   - S7: Added Gertburt's tomb
   - S9: Renamed Frank and Arthur to Fred and Ron ;-)
   - S10: Renamed Saher-Tot to Master
