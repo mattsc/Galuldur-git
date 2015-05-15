@@ -13,7 +13,10 @@
   - S1: Added a message that the wolves are in west
   - S5: make troll ambushes weaker, to make them less of a tomato surprise
   - S6: completely rework the scenario, to avoid it being a null scenario
+  -> S7: adapt to changes in S6 (e.g. make undead appear in all cases, less
+    gold dropped by Norfindil, etc.)
   - S7: Added Gertburt's tomb
+  - S8: Give Aher-Tot some starting units to prevent quick leader assassination
   - S9: Renamed Frank and Arthur to Fred and Ron ;-)
   - S10: Renamed Saher-Tot to Master
 
