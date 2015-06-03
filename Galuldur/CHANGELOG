@@ -1,3 +1,13 @@
+----- 1.2.1, 2 June 2015 (minor update with mostly cosmetic changes) -----
+
+- S5 Journey Back: give Galuldur automatic ownership of villages he owned in S4
+- S10 Final Battle:
+  - Change appearance of portals
+  - Add message first time a player-controlled unit steps on a portal
+- [adjust_facing] tag: tweak behavior to give more naturally looking results
+- Use last_breath vs. die events more appropriately
+
+
 ----- 1.2.0, 17 May 2015 (port to Wesnoth 1.12) -----
 
 - Ported the campaign to Wesnoth 1.12
