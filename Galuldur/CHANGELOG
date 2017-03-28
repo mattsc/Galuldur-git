@@ -1,3 +1,13 @@
+----- 1.2.2, 28 March 2017 (port to Wesnoth 1.13) -----
+
+- Ported the campaign to Wesnoth 1.13
+  - Majority of changes simply to make everything work in both 1.12 and 1.13
+  - Tested on 1.13.7
+- Some minor wording changes
+- A few changes to AI aspects, with negligible effect on gameplay
+- A few internal changes and clean-up that were not needed for the porting
+
+
 ----- 1.2.1, 2 June 2015 (minor update with mostly cosmetic changes) -----
 
 - S5 Journey Back: give Galuldur automatic ownership of villages he owned in S4
