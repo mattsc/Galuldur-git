@@ -1,7 +1,3 @@
-local helper = wesnoth.require "lua/helper.lua"
-local T = helper.set_wml_tag_metatable {}
-local _ = wesnoth.textdomain "wesnoth-Galuldur"
-
 function wesnoth.wml_actions.adjust_facing(cfg)
     -- Set up tag [adjust_facing]
     -- Adjust the facing of two units to face each other (such as before a dialog).
